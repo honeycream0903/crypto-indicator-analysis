@@ -1,43 +1,69 @@
 # 📊 Crypto Indicator Analysis
 
-## Project Overview
-This project analyzes the effectiveness of commonly used technical indicators (such as SMA, RSI, MACD, etc.) in cryptocurrency price prediction by evaluating their feature importance using XGBoost.
-All data processing and model training are performed in the Google Colab environment. There is no need to manually download datasets or set up dependencies—everything is handled automatically within the notebook.
-You can launch and run the entire project directly in Google Colab by clicking the button below:
+## 🧠 Project Overview
 
-本專案分析常見技術指標（如 SMA、RSI、MACD 等）在加密貨幣價格預測中的有效性，使用 XGBoost 統計其特徵重要性。  
-資料處理與模型訓練皆於 Google Colab 環境完成，無需手動下載資料或設定環境，所有安裝與資料載入皆在 Notebook 中自動完成。
-你可以點擊下方按鈕，在 Google Colab 直接開啟並執行專案：
+This project analyzes the effectiveness of commonly used technical indicators (such as **SMA**, **RSI**, **MACD**, etc.) in cryptocurrency price prediction by evaluating their feature importance using **XGBoost**.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)(https://colab.research.google.com/drive/1c4DSuPSMAFO7b7sSfLmrRu8m82O2ATew#scrollTo=x_3BQwHBmtAr)]
+All data processing and model training are performed in the **Google Colab** environment.
+There is **no need** to manually download datasets or install dependencies—everything is handled automatically within the notebook.
 
+You can launch and run the entire project directly in Colab by clicking the button below:
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1c4DSuPSMAFO7b7sSfLmrRu8m82O2ATew#scrollTo=x_3BQwHBmtAr)
 
-### 📦 Environment Requirements
-- Python 3
-- pandas_ta
-- xgboost
-- gdown
-- unzip
+---
 
-### Required packages can be installed within the Colab notebook.
-<pre>!pip install pandas_ta
-!pip install xgboost</pre>
+### 📘 中文簡介
 
+本專案分析常見技術指標（如 SMA、RSI、MACD 等）在加密貨幣價格預測中的有效性，並透過 XGBoost 統計其特徵重要性。
+資料處理與模型訓練皆於 Google Colab 環境中進行，無需手動下載資料或安裝套件，所有步驟均已整合在 Notebook 中。
 
-### 📥 Data Download and Extraction-Download and unzip compressed files containing minute-level and daily cryptocurrency prices.
-<pre>!gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
+---
+
+## 📦 Environment Requirements
+
+> ✅ All required packages will be installed automatically in Colab.
+
+For local execution, ensure the following packages are available:
+
+```bash
+pip install pandas_ta
+pip install xgboost
+```
+
+Tested on:
+
+* Python 3.9+
+* pandas-ta 0.3.14b0
+* xgboost 1.7.6
+* Google Colab (recommended)
+
+---
+
+## 📥 Data Download and Extraction
+
+Compressed datasets containing **minute-level** and **daily** cryptocurrency prices will be automatically downloaded and extracted:
+
+```bash
+!gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
 !unzip '/content/Crypto_1min.zip'
+
 !gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
-!unzip '/content/Cryptos_1day.zip'</pre>
+!unzip '/content/Cryptos_1day.zip'
+```
 
-📌 All data files are in .csv format and include historical price information for various cryptocurrencies such as BTC.csv, ETH.csv, and ADA.csv.
+> 📂 All files are in `.csv` format, including historical price data for cryptocurrencies such as `BTC.csv`, `ETH.csv`, `ADA.csv`, and more.
 
-### The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
+---
 
-📌The visualization below illustrates the results using BTC as an example.
+## 📈 Results
+
+The model evaluates the **top 10 most predictive technical indicators** for each cryptocurrency using XGBoost’s feature importance analysis.
+
+📌 The visualization below illustrates the result using **BTC** as an example:
 
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
+
 
 # ADA: iterations = 100
 <pre>{'SMA_7': {'count': 86, 'score': 35.34580198605201},
