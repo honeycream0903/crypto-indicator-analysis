@@ -21,22 +21,22 @@ You can launch and run the entire project directly in Google Colab by clicking t
 - unzip
 
 ### Required packages can be installed within the Colab notebook.
-!pip install pandas_ta
-!pip install xgboost
+<pre>!pip install pandas_ta
+!pip install xgboost</pre>
 
 
 ### 📥 Data Download and Extraction-Download and unzip compressed files containing minute-level and daily cryptocurrency prices.
-!gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
+<pre>!gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
 !unzip '/content/Crypto_1min.zip'
 !gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
-!unzip '/content/Cryptos_1day.zip'
+!unzip '/content/Cryptos_1day.zip'</pre>
 
 #### 📌 All data files are in .csv format and include historical price information for various cryptocurrencies such as BTC.csv, ETH.csv, and ADA.csv.
 
-## The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
+# The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
 
-# The visualization below illustrates the results using BTC as an example.
-圖示以 BTC 為例
+## The visualization below illustrates the results using BTC as an example.
+
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
 
 # ADA: iterations = 100
