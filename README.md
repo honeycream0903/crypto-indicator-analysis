@@ -10,10 +10,10 @@
 
 # 📦 環境需求
 - Python 3
-- pandas
-- pandas-ta
+- pandas_ta
 - xgboost
 - gdown
+- unzip
 
 可於 Colab 中直接安裝必要套件：
 ```bash
