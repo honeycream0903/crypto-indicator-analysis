@@ -38,7 +38,7 @@ unzip Cryptos_1day.zip
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
 
 # ADA: iterations = 100
-<pre> ```json {'SMA_7': {'count': 86, 'score': 35.34580198605201},/n 
+<pre> ```python {'SMA_7': {'count': 86, 'score': 35.34580198605201},
  'SMA_30': {'count': 52, 'score': 24.962968176637915},
  'ROC_1': {'count': 45, 'score': 17.47844725908166},
  'ATRr_7': {'count': 37, 'score': 16.299778634085357},
