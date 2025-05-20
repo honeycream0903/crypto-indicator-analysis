@@ -20,13 +20,12 @@ You can launch and run the entire project directly in Google Colab by clicking t
 - gdown
 - unzip
 
-#Required packages can be installed within the Colab notebook.(可於 Colab 中直接安裝必要套件)
+#Required packages can be installed within the Colab notebook.
 !pip install pandas_ta
 !pip install xgboost
 
 
-# 📥 Data Download and Extraction(資料下載與解壓縮)
-# Download and unzip compressed files containing minute-level and daily cryptocurrency prices.(下載每分/每日價格的壓縮資料並解壓縮)
+# 📥 Data Download and Extraction-Download and unzip compressed files containing minute-level and daily cryptocurrency prices.
 !gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
 !unzip '/content/Crypto_1min.zip'
 !gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
