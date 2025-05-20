@@ -4,7 +4,8 @@
 資料處理與模型訓練皆於 Google Colab 環境完成，無需手動下載資料或設定環境，所有安裝與資料載入皆在 Notebook 中自動完成。
 你可以點擊下方按鈕，在 Google Colab 直接開啟並執行專案：
 
-[![Open In Colab](https://colab.research.google.com/drive/1c4DSuPSMAFO7b7sSfLmrRu8m82O2ATew#scrollTo=x_3BQwHBmtAr)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/honeycream0903/crypto-indicator-analysis/blob/main/crypto_indicator_analysis.ipynb)
+
 
 
 # 📦 環境需求
