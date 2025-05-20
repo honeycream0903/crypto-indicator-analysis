@@ -24,9 +24,13 @@
 # 📥 資料下載與解壓縮
 
 ```bash
-# 下載每日價格的壓縮資料並解壓縮
-gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
-unzip Cryptos_1day.zip
+# 下載每分/每日價格的壓縮資料並解壓縮
+"""
+!gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
+!unzip '/content/Crypto_1min.zip'
+"""
+!gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
+!unzip '/content/Cryptos_1day.zip'
 ```
 
 📌 所有資料皆為 `.csv` 格式，包含如 `BTC.csv`, `ETH.csv`, `ADA.csv` 等幣種的歷史價格資訊。
