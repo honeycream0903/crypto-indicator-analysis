@@ -1,6 +1,6 @@
 # 📊 Crypto Indicator Analysis
 
-##Project Overview
+## Project Overview
 This project analyzes the effectiveness of commonly used technical indicators (such as SMA, RSI, MACD, etc.) in cryptocurrency price prediction by evaluating their feature importance using XGBoost.
 All data processing and model training are performed in the Google Colab environment. There is no need to manually download datasets or set up dependencies—everything is handled automatically within the notebook.
 You can launch and run the entire project directly in Google Colab by clicking the button below:
@@ -20,22 +20,22 @@ You can launch and run the entire project directly in Google Colab by clicking t
 - gdown
 - unzip
 
-###Required packages can be installed within the Colab notebook.
+### Required packages can be installed within the Colab notebook.
 !pip install pandas_ta
 !pip install xgboost
 
 
-###📥 Data Download and Extraction-Download and unzip compressed files containing minute-level and daily cryptocurrency prices.
+### 📥 Data Download and Extraction-Download and unzip compressed files containing minute-level and daily cryptocurrency prices.
 !gdown --id 1mDQP9sIAdG4813ehJ9P0Ortad8gJEU_h
 !unzip '/content/Crypto_1min.zip'
 !gdown --id 1_x08rXnQuvRzdCWVoD2Qftt6RmihaeSJ
 !unzip '/content/Cryptos_1day.zip'
 
-####📌 All data files are in .csv format and include historical price information for various cryptocurrencies such as BTC.csv, ETH.csv, and ADA.csv.
+#### 📌 All data files are in .csv format and include historical price information for various cryptocurrencies such as BTC.csv, ETH.csv, and ADA.csv.
 
-##The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
+## The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
 
-#The visualization below illustrates the results using BTC as an example.
+# The visualization below illustrates the results using BTC as an example.
 圖示以 BTC 為例
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
 
