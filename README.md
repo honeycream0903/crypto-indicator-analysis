@@ -33,9 +33,9 @@ You can launch and run the entire project directly in Google Colab by clicking t
 
 #### 📌 All data files are in .csv format and include historical price information for various cryptocurrencies such as BTC.csv, ETH.csv, and ADA.csv.
 
-# The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
+### The results present the top 10 most predictive technical indicators and their corresponding scores for each cryptocurrency.
 
-## The visualization below illustrates the results using BTC as an example.
+#### 📌The visualization below illustrates the results using BTC as an example.
 
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
 
