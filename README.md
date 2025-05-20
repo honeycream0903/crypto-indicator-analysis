@@ -38,16 +38,16 @@ unzip Cryptos_1day.zip
 ![outputＢＴＣ](https://github.com/user-attachments/assets/2ac7e467-212c-45a5-bf3d-b51bdd3a39ec)
 
 # ADA: iterations = 100
-{'SMA_7': {'count': 86, 'score': 35.34580198605201}, 
- 'SMA_30': {'count': 52, 'score': 24.962968176637915}, 
- 'ROC_1': {'count': 45, 'score': 17.47844725908166},
- 'ATRr_7': {'count': 37, 'score': 16.299778634085357},
- 'ICS_26': {'count': 36, 'score': 15.40062045739566}, 
- 'RSI_14': {'count': 35, 'score': 12.426192166752466},
- 'ATRr_30': {'count': 23, 'score': 14.973758668545713}, 
- 'MACDh_12_26_9': {'count': 22, 'score': 13.038482309807783}, 
- 'MACDs_12_26_9': {'count': 19, 'score': 20.325090869629502}, 
- 'ATRr_14': {'count': 18, 'score': 14.13159274824288}}
+{'SMA_7': {'count': 86, 'score': 35.34580198605201},/n 
+ 'SMA_30': {'count': 52, 'score': 24.962968176637915}, /n
+ 'ROC_1': {'count': 45, 'score': 17.47844725908166},/n
+ 'ATRr_7': {'count': 37, 'score': 16.299778634085357},/n
+ 'ICS_26': {'count': 36, 'score': 15.40062045739566}, /n
+ 'RSI_14': {'count': 35, 'score': 12.426192166752466},/n
+ 'ATRr_30': {'count': 23, 'score': 14.973758668545713}, /n
+ 'MACDh_12_26_9': {'count': 22, 'score': 13.038482309807783}, /n
+ 'MACDs_12_26_9': {'count': 19, 'score': 20.325090869629502}, /n
+ 'ATRr_14': {'count': 18, 'score': 14.13159274824288}}/n
 # ALGO: iterations = 83
 {'SMA_7': {'count': 75, 'score': 34.253869699817066}, 
  'ROC_1': {'count': 52, 'score': 15.35281079646284}, 
