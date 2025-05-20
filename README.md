@@ -17,8 +17,8 @@
 
 可於 Colab 中直接安裝必要套件：
 ```bash
-pip！install pandas_ta xgboost gdown
-
+!pip install pandas_ta
+!pip install xgboost
 ```
 
 # 📥 資料下載與解壓縮
